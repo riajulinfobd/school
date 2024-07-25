@@ -1,0 +1,177 @@
+.wrap{
+	width:350px;
+	display:block;
+	margin:0 auto;
+}
+.img{
+	max-width:100%;
+	height:auto;
+}
+.selectnav{
+	display:none;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.wrap{
+	width:95%;
+}
+#content{
+	width:65%;
+	margin-right:2%;
+}
+#sidebar{
+	width:33%;
+}
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#mainmenu{
+	display:none;
+}	
+}
+@media only screen and (max-width: 767px) {
+.wrap{
+	width:98%;
+}
+#content{
+	width:100%;
+}
+#sidebar{
+	width:100%;
+}
+
+#imgp_wrap img{
+	width:97%;
+	height:auto;
+}
+#header{
+	text-align:center;
+}
+	
+#content figure{
+	width:75%;
+	padding:5px;
+}
+#content img {
+    width: 100%;
+}
+#content figcaption{
+	font-size:85%;
+}	
+blockquote {
+    background: #ddd;
+    margin-left: 1%;
+    padding: 5px;
+    padding-left: 3%;
+    border-left: 2px solid orange;
+}
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#mainmenu{
+	display:none;
+}
+#sidebar aside{
+	margin-top: 5px;
+}
+		
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.wrap{
+	width:98%;
+}
+#content{
+	width:100%;
+}
+#sidebar{
+	width:100%;
+}
+
+#header{
+	text-align:center;
+}	
+#content figure{
+	width:75%;
+}	
+	
+#content figure{
+	width:75%;
+	padding:5px;
+}
+#content img {
+    width: 100%;
+}
+#content figcaption{
+	font-size:85%;
+}	
+blockquote {
+    background: #ddd;
+    margin-left: 1%;
+    padding: 5px;
+    padding-left: 3%;
+    border-left: 2px solid orange;
+}		
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#mainmenu{
+	display:none;
+}
+		
+#imgp-wrap p{
+	width: 100%;
+}
+#sidebar aside{
+	margin-top: 5px;
+}		
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+.wrap{
+	width:98%;
+}
+#content{
+	width:100%;
+}
+#sidebar{
+	width:100%;
+}
+
+#header{
+	text-align:center;
+}	
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#mainmenu{
+	display:none;
+}
+#imgp-wrap p{
+	width: 100%;
+}
+#sidebar aside{
+	margin-top: 5px;
+}
+				
+	
+}
