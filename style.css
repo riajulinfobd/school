@@ -18,7 +18,7 @@ body{
 	background: white;overflow: hidden;
 }
 .main_content{ 
-	width: 960px;
+	width: 100%;
 	margin: auto;
 	height: 100%;
 	background: whtie;
