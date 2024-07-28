@@ -8,79 +8,77 @@ body{
 	line-height: 25px;
 	color: #333333;
 	font-family: Bahnschrift Condensed;
-	background: url(images/background.jpg); background-repeat: fixed;
+	background: url(images/background.jpg)repeat fixed
 }
 .warrper{ 
 	width: 1000px;
-	height: 220vh;
+	height: 100%;
 	margin: auto;
 	box-shadow: 0px 5px 5px gray;
-	background: white;
+	background: white;overflow: hidden;
 }
 .main_content{ 
 	width: 960px;
 	margin: auto;
-	height: auto;
+	height: 100%;
 	background: whtie;
+	overflow: hidden;
 }
 .social_links{
 	width: 100%;
 	float: right;
-	
+	height: 100px;
 }
 .social_links ul{
 	list-style: none;
 }
 .social_links ul li{
 	float: right;
-	font-size: 12px;
 	text-align: right;
 	padding: 10px;
+	margin-top: 20px;
+}
+.school_banar{
+	float: left;
+	cursor: pointer;
 }
 .main_menu{
-	width: 100%;
-	height: 70px;
+	width: 960px;
+	height: 50px;
 	float: left;
 	background: #3f51b5;
+	
+
 }
-.main_menu ul li a{
-	width: 100%;
-}
-.logo img{
-	float: left;
-    height: 70px;
-    width: 70px;
-    margin-left: 10px;
-    cursor: pointer;
-    padding: 5px;
-}
-.top_menu{
-	wight: 100%;
-	height: auto;
-}
-.top_menu ul{
+.main_menu ul{
 	list-style: none;
 	text-align: center;               
-	padding: 15px 0px;
 }
-.top_menu ul li{
-	display: inline-block;
+.main_menu ul li{
+		display: inline-block;
     padding: 10px ;
     font-family: Bahnschrift Condensed;
+    background: #3f51b5;
+
 }
-.top_menu ul li a{
+.main_menu ul li a{
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 }
-.top_menu ul li a:hover{
+.main_menu ul li a:hover{
 	border-bottom: 1px solid whitesmoke;
 }
-.banar img{
-	width:100%;
-	height:300px;
-	border: 3px solid #607d8b;
+
+.banar_slider{
 	float: left;
+	width: 960px;
+	height: 300px;
+}
+.banar_slider img{
+	float: left;
+	width: 960px;
+	height: 300px;
 }
 .sideber_left{
 	width: 220px;
@@ -112,16 +110,16 @@ cursor:pointer;
 .sideber_left ul li a:hover{
 	color: white;
 }
-.principal_img img{
-	    width: 150px;
+.profile_img img{
+	   width: 170px;
     height: 200px;
-    margin-left: 35px;
+    margin-left: 25px;
     margin-top: 15px;
+
 	}
-	.right_img h5{
-		background: green;
-		color: white;
-		font-weight: bold;
+	.profile_img h5{
+	background: #cddc3969;
+    font-size: 15px;
 	}
 .Sidebar_right{
 	width: 220px;
@@ -176,14 +174,14 @@ cursor:pointer;
 	cursor:pointer;
  	font-family: Bahnschrift Condensed;
  	text-align: justify;
- 	
 }
 .Notice_title ul li{
 	border-bottom: 1px solid #CCCCCC;
-	color: #333333;
+	color: blue;
 }
+
 .Notice_title ul li:hover{
-	
+	color: blueviolet;
 }
 
 a{
@@ -192,37 +190,34 @@ a{
 .text {
 	  float: left;
     width: 480px;
-    height: 220px;
+    height: 230px;
     margin-left: 20px;
-    margin-top: 28px;
+    margin-top: 20px;
     text-align: justify;
     padding: 10px;
     border: 1px solid #CCCCCC; 
 }
 .text p {
+	padding: 10px;
 }
 .scroll_text{
 	margin-top: 20px;
-	background: #3f51b5;
+	background: #2196f3;
+	
 }
 .scroll_text a{
 	text-align: center;
 	color: white;
 
 }
-.slider_image{
+.Video_clip{
 	  width: 220px;
-    height: 220px;
+    height: 230px;
     border: 1px solid #CCCCCC;
     float: left;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
    
-}
-.slider_image img{
-	width: 220px;
-	height: 150px;
-	float: left;
 }
 .footer_area{
 width: 100%px;
