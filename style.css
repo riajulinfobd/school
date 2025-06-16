@@ -188,7 +188,7 @@ a{
 	text-decoration: none;
 }
 .text {
-	  float: left;
+    float: left;
     width: 480px;
     height: 230px;
     margin-left: 20px;
@@ -199,6 +199,9 @@ a{
 }
 .text p {
 	padding: 10px;
+}
+.text h3 {
+	margin-left: 15px
 }
 .scroll_text{
 	margin-top: 20px;
