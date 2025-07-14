@@ -51,8 +51,7 @@ body{
 
 }
 .main_menu ul{
-	list-style: none;
-	text-align: center;               
+	list-style: none;               
 }
 .main_menu ul li{
     display: inline-block;
